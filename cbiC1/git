@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tcbiC1 are some tools that could be useful for the CBI"
+        }
+
+module-whatis   "cbiC1.git"
+
+prepend-path	PATH		/groups/cbi/shared/apps/cbiC1/cbiC1.git/bin
+prepend-path	PYTHONPATH		/groups/cbi/shared/apps/cbiC1/cbiC1.git/python
+

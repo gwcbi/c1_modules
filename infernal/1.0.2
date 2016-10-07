@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tInfernal (INFERence of RNA ALignment) is for searching DNA sequence databases for RNA structure and sequence similarities."
+        }
+
+module-whatis   "infernal-1.0.2"
+
+prepend-path	PATH	/groups/cbi/shared/apps/infernal/infernal-1.0.2/build/bin
+

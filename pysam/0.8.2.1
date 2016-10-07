@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tLoad pysam module"
+        }
+
+module-whatis   "pysam 0.8.2.1"
+
+prepend-path	PATH		/groups/cbi/shared/apps/pysam/0.8.2.1/bin
+prepend-path	PYTHONPATH		/groups/cbi/shared/apps/pysam/0.8.2.1/lib/python2.7
+

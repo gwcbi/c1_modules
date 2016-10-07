@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tAnaconda is a FREE enterprise-ready Python distribution for data analytics, processing, and scientific computing."  
+
+        }
+
+module-whatis   "anaconda 2.1.0"
+
+prepend-path	PATH		/groups/cbi/shared/apps/anaconda/2.1.0/bin
+

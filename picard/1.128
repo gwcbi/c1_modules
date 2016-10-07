@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tpicard: A set of tools (in Java) for working with next generation sequencing data in the BAM (http://samtools.github.io/hts-specs) format. 
+http://broadinstitute.github.io/picard/"
+        }
+
+module-whatis   "picard 1.128"
+
+prepend-path	PATH	/groups/cbi/shared/apps/picard/picard-tools-1.128/bin

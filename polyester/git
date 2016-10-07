@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tPolyester: RNA-seq read simulator."
+        }
+
+module-whatis   "polyester"
+
+## prepend-path	PATH		/groups/cbi/shared/apps/polyester/polyester.git/R
+prepend-path	POLYESTER_DIR		/groups/cbi/shared/apps/polyester/polyester.git

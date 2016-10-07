@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\ttRNAscan-SE: An improved tool for transfer RNA detection" 
+        }
+
+module-whatis   "tRNAscan-SE 1.23"
+
+prepend-path	PATH	/groups/cbi/shared/apps/tRNAscan-SE/tRNAscan-SE-1.23/build/bin	
+

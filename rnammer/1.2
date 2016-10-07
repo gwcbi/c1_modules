@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tRNAmmer 1.2 predicts 5s/8s, 16s/18s, and 23s/28s ribosomal RNA in full genome sequences"
+        }
+
+module-whatis   "RNAmmer 1.2"
+
+prepend-path	PATH	/groups/cbi/shared/apps/RNAmmer/rnammer-1.2
+module  load    hmmer/2.3.2
+

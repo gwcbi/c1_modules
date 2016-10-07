@@ -1,0 +1,15 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\trfam_scan searches for RNA sequences using HMMER"
+        }
+
+module-whatis   "rfam_scan release 11.0"
+
+prepend-path	PATH	/groups/cbi/shared/apps/rfam_scan/rfam_release_11.0/bin
+module  load    bioperl/1.6.0
+module	load	infernal/1.0.2
+module	load	blast-old/2.2.19
+

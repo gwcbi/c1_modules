@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tSeqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip."
+        }
+
+module-whatis   "seqtk 1.0-r68-git"
+
+prepend-path	PATH		/groups/cbi/shared/apps/seqtk/seqtk_v1.0-r68-git/bin
+

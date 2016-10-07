@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tAdds guppy to your environment"
+        }
+
+module-whatis   "guppy from PhyloSift package"
+
+prepend-path	PATH		/groups/cbi/shared/apps/PhyloSift/phylosift_v1.0.1/bin/
+

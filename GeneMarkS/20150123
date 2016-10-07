@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tGeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Implications for finding sequence motifs in regulatory regions."
+        }
+
+module-whatis   "GeneMarkS 20150123"
+
+prepend-path	PATH	/groups/cbi/shared/apps/GeneMarkS/genemark_suite_linux_64/gmsuite/bin
+

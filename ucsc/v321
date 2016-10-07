@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tUCSC application binaries built for standalone command-line use."
+        }
+
+module-whatis   "ucsc v321"
+
+prepend-path	PATH	/groups/cbi/shared/apps/ucsc/v321/bin
+prepend-path	LIFTOVER_CHAIN	/groups/cbi/shared/apps/ucsc/liftOver.chain

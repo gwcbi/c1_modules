@@ -1,0 +1,11 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tShort Reads Assembly into Haplotypes"
+        }
+
+module-whatis   "ShoRAH v0.8.2-11"
+
+prepend-path	PATH	/groups/cbi/shared/apps/shorah/shorah-v0.8.2-11/bin

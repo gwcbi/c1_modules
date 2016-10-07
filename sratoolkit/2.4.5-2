@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tThe SRAtoolkit will allow you to programmatically access data housed within SRA and convert it from the SRA format to various other formats"
+        }
+
+module-whatis   "SRAToolkit 2.4.5-2"
+
+prepend-path	PATH	/groups/cbi/shared/apps/RNAmmer/rnammer-1.2
+prepend-path	PATH	/groups/cbi/shared/apps/sratoolkit/sratoolkit.2.4.5-2-centos_linux64/bin
+

@@ -1,0 +1,11 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tRepeatsome: scripts for repetitive element finding"
+        }
+
+module-whatis   "repeatsome"
+
+prepend-path	PATH		/groups/cbi/shared/apps/repeatsome/repeatsome_pipeline.git/bin

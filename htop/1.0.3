@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tAdds htop  to your environment"
+        }
+
+module-whatis   "htop 1.0.3"
+
+prepend-path	PATH		/groups/cbi/shared/apps/htop/htop-1.0.3/bin
+

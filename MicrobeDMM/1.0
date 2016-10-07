@@ -1,0 +1,21 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tAdds MicrobeDMM 1.0  to your environment"
+        }
+
+module-whatis   "MicrobeDMM 1.0"
+
+if ![ is-loaded 'gsl/gcc/1.15' ] {
+  module load gsl/gcc/1.15
+}
+
+prepend-path	PATH		/groups/cbi/shared/apps/MicrobeDMM/MicrobeDMMv1.0/bin
+## prepend-path	C_INCLUDE_PATH		/groups/cbi/shared/apps/MicrobeDMM/MicrobeDMMv1.0/bin
+## prepend-path	LIBRARY_PATH	/c1/apps/gsl/gcc/1.15/lib
+## prepend-path	LD_LIBRARY_PATH	/c1/apps/gsl/gcc/1.15/lib
+## prepend-path	MANPATH		/c1/apps/gsl/gcc/1.15/share/man
+
+

@@ -1,0 +1,12 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+   
+        puts stderr "\tRepEnrich is a method to estimate repetitive element enrichment using high-throughput sequencing data."
+        }
+
+module-whatis   "RepEnrich.git"
+
+prepend-path	PATH	/groups/cbi/shared/apps/RepEnrich/RepEnrich.git
+

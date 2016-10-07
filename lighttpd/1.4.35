@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tlighttpd is a secure, fast, compliant, and very flexible web-server that has been optimized for high-performance environments."
+
+        }
+
+module-whatis   "lighttpd 1.4.35"
+
+prepend-path	PATH		/groups/cbi/shared/apps/lighttpd/lighttpd-1.4.35/sbin
+

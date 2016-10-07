@@ -1,0 +1,13 @@
+#%Module1.0#######################################################################
+## slurm modulefile
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tLoad amazon aws command line interface"
+        }
+
+module-whatis   "awscli"
+
+prepend-path	PATH		/groups/cbi/shared/apps/awscli/awsENV/bin
+prepend-path	PYTHONPATH		/groups/cbi/shared/apps/awscli/awsENV/lib/python2.7
+
